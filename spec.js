@@ -27,7 +27,7 @@ describe('angularjs homepage', function() {
     expect(history.count()).toEqual(3);
     
     expect(history.last().getText()).toContain('1 + 2');
-    expect(history.first().getText()).toContain('5 + 6x');
+    expect(history.first().getText()).toContain('5 + 6');
   });
   
   it('should have a title', function() {
